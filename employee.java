@@ -6,8 +6,8 @@ public class employee {
 	private double Salary;
 	private String desg;
 	private int rating;
-	
-	public employee(int employee_id, String employee_name,double Salary,String desg,int rating) {
+	private String location;
+	public employee(int employee_id, String employee_name,double Salary,String desg,String location,int rating) {
 		this.employee_id =employee_id;
 		this.employee_name=employee_name;
 		this.Salary=Salary;
@@ -15,6 +15,13 @@ public class employee {
 		this.rating = rating;
 			
 	}
+	public void setloc(String location) {
+		this.location = location;
+	}
+	public String getlocation() {
+		return location;
+	}
+
 
 	public void setDesg(String desg) {
 		this.desg = desg;

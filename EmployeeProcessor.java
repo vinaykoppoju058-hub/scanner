@@ -2,7 +2,6 @@ package com.scanner;
 
 import java.util.Scanner;
 
-import com.constructor.employee;
 
 public class EmployeeProcessor {
 
