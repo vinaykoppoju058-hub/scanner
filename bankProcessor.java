@@ -2,7 +2,7 @@ package com.scanner;
 
 import java.util.Scanner;
 
-import com.constructot.bankAccount;
+import com.constructor.bankAccount;
 
 public class bankProcessor {
 
