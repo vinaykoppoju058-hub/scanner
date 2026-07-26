@@ -16,9 +16,11 @@ public class EmployeeProcessor {
 		double empSal=sc.nextDouble();
 		System.out.println("enter designation");
 		String desg=sc.next();
+		System.out.println("enter emp location");
+		String emploc=sc.next();
 		System.out.println("enter Rating:");
 		int Rating=sc.nextInt();
-		employee emp=new employee(empID,empName,empSal,desg,Rating);
+		employee emp=new employee(empID,empName,empSal,desg,emploc,Rating);
 		
 		
 		System.out.println("======================================");
