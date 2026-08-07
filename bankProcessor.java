@@ -27,7 +27,6 @@ public class bankProcessor {
 		obj.withdraw(withdrawl);
 		
 		
-	
 
 	}
 

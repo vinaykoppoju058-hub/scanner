@@ -1,8 +1,6 @@
 package com.scanner;
 
 public class bankAccount {
-
-
 				private int Accountnumber;
 				private String holder;
 				private Double balance;
@@ -17,21 +15,15 @@ public class bankAccount {
 				public int getAccountnumber() {
 					return Accountnumber;
 				}
-
-
 				public String getHolder() {
 					return holder;
 				}
-
-
 				public Double getBalance() {
 					return balance;
 				}
 				public void setbalance(double balance) {
 					this.balance=balance;
 				}
-				
-				
 				public void deposit(double amount) {
 					if (amount > 0 ) {
 						balance += amount;
@@ -48,17 +40,7 @@ public class bankAccount {
 							System.out.println("insufficient balance");
 						}
 					}
-				
-
-
-			public static void main(String[] args) {
-				
-
-			}
-			
-
-		
-
+					
 	}
 
 

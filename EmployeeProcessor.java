@@ -20,8 +20,6 @@ public class EmployeeProcessor {
 		System.out.println("enter Rating:");
 		int Rating=sc.nextInt();
 		employee emp=new employee(empID,empName,empSal,desg,emploc,Rating);
-		
-		
 		System.out.println("======================================");
 		System.out.println("Promote Employeee");
 		emp.promoteEmployee();
